@@ -112,7 +112,7 @@ elif [[ $firmware == "x86_64" ]]; then
 fi
 
 
-read -p "请输入后台地址 [回车默认]: " ip
+read -p "请输入后台地址 [回车默认192.168.1.3]: " ip
 ip=${ip:-"192.168.1.3"}
 echo "您的后台地址为: $ip"
 cp -rf devices/common/* ./
